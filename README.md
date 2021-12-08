@@ -1,4 +1,4 @@
-# AFS Workshop 2022: Introduction to R for Fishery Researchers
+# AFS Alaska Workshop 2022: Introduction to R for Fishery Researchers
 _Short introductory course for learning the basics of R, tailored for AFS fishery biologists._  
 
 
