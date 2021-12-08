@@ -1,4 +1,4 @@
-# AFS Workshop: Introduction to R for Fishery Researchers
+# AFS Workshop 2022: Introduction to R for Fishery Researchers
 _Short introductory course for learning the basics of R, tailored for AFS fishery biologists._  
 
 
@@ -20,7 +20,7 @@ Then opened the desired tutorial script in RStudio and click "Run Document" abov
 This course will be split over two days of about 6.5 hours each day.
 Before each section we will take a small break.  
 
-### Day 1
+### Day 1 _(Sunday February 27)_  
 9:00-9:30 - Welcome  
 9:30-11:00 - Section 1: About R  
 11:00-12:00 - Section 2: Basic Programming  
@@ -29,7 +29,7 @@ Before each section we will take a small break.
 3:00-4:30 - Section 4: Basic Data Manipulation  
 4:30-5:00 - Review of Material  
 
-### Day 2
+### Day 2 _(Monday February 28)_  
 9:00-11:30 - Section 5: Charts  
 11:30-12:00 - Section 6: Basic Analysis  
 12:00-1:30 - Lunch Break  
