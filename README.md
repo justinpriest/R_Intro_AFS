@@ -33,7 +33,7 @@ Before each section we will take a small break.
 9:00-11:30 - Section 5: Charts  
 11:30-12:00 - Section 6: Basic Analysis  
 12:00-1:30 - Lunch Break  
-1:30-2:00 - Section 7 - Tidyverse  
+1:30-2:00 - Section 7: Tidyverse  
 2:00-4:30 - Section 8: Independent Project  
 4:30-5:00 - Review of Projects & Course  
 
