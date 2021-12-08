@@ -30,7 +30,8 @@ Before each section we will take a small break.
 4:30-5:00 - Review of Material  
 
 ### Day 2 _(Monday February 28)_  
-9:00-11:30 - Section 5: Charts  
+9:00-9:30 - Welcome and Review  
+9:30-11:30 - Section 5: Charts  
 11:30-12:00 - Section 6: Basic Analysis  
 12:00-1:30 - Lunch Break  
 1:30-2:00 - Section 7: Tidyverse  
