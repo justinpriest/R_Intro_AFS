@@ -10,6 +10,8 @@ Attendees will watch the instructor present the PowerPoint presentation. At the 
 **Scripts:** A stand-alone script that demonstrates PowerPoint concepts, and will either be reviewed together or independently.  
 **Motivating Examples:** Completed scripts showcasing several types of analyses, charts, and data types.  
 
+To open the code, ALWAYS start by double clicking the `R_Intro_AFS.Rproj` file. Next, open the files as normal. This will ensure that the files run properly. Don't worry if this sounds a little confusing, we'll cover all this in class!  
+
 Code is numbered to be associated with each section in the PowerPoint, i.e., concepts covered in PowerPoint Section 2 "Basic Programming" correspond to code reviewed in `Tutorial_2_Basics` and in the script `2_Basic_Programming.R`  
 
 To run the learnr tutorials on your own computer you will need to paste the following code into R and then run it:  
