@@ -93,9 +93,13 @@ library(dplyr)
 ```
 
 
-### Packages - Exercise 2
+### Packages - Exercise 1 - Note
+*Quick side note about using libraries: quotes are optional. Running* `library(dplyr)` *is the most common way but putting it in quotes (* `library("dplyr")` *) does the same thing.*   
+*If you are installing a library for the first time (e.g., *`install.packages("dplyr")` *), you MUST use quotes.*  
 
-*Now that we have a package loaded we can use it. *
+
+### Packages - Exercise 2
+*OK great, we've loaded a package! Now that we have a package loaded we can use it. *
 
 Use the function `filter()` from the library "dplyr" to filter the dataframe `exampledf` to only keep the rows from fish that where `sex=="Female"`. 
 ```{r use-dplyr, exercise=TRUE, exercise.eval=TRUE, exercise.lines = 5, cache=FALSE}
