@@ -2,7 +2,7 @@
 title: "Tutorial 5 - Creating charts with ggplot2"
 tutorial:
   id: "com.example.tutorials.ggplot2charts"
-  version: 0.5.0
+  version: 1.0.0
 output: 
   learnr::tutorial:
     progressive: true
@@ -322,7 +322,7 @@ ggplot(data = penguins,
 
 
 ### Flipper Plot - Completed!
-Great job! Look at this plot you've created, very neat! We can see that there is a positive relationship between flipper size and body mass, and further that this is different between different species. 
+Great job! Look at this plot you've created, very neat! We can see that there is a positive relationship between flipper size and body mass, and further, that this is different between different species. 
 
 ```{r flipper-review, exercise.eval=TRUE, message=FALSE, warning=FALSE}
 ggplot(data = penguins,

@@ -2,7 +2,7 @@
 # Justin Priest
 # justin.priest@alaska.gov
 
-#####  MOTIVATING EXAMPLE 3  #####
+#####  MOTIVATING EXAMPLE 4  #####
 #####       Groundfish       #####
 
 # Difficulty: Moderate

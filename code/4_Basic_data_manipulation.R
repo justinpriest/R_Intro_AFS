@@ -18,7 +18,7 @@ library(tidyverse)
 # When first starting out, it is very tempting to fix everything in Excel, then import it in R
 # This is certainly acceptable when you're new and gets you to start analysis earlier. 
 # However, it makes things longer if you'll ever have to add new data and re-do all the same changes
-# For example, if data always comes out of OceanAK in a certain format and with different column names
+# For example, if data always comes out of a database in a certain format and with different column names
 # If you wanted to re-perform analysis when more data is available, doing these changes in R can save time
 
 
@@ -134,7 +134,7 @@ groundfish %>% mutate(Sex = recode(Sex, "Female" = "F", "Male" = "M"))
 groundfish
 
 # Less commonly, previous biologists might have been slackers and used a blank to mean a zero
-# That isn't true for this database (way to go Team Groundfish!). 
+# That isn't true for this database (way to go ADF&G Groundfish Team!). 
 # But for the sake of learning, we'll cover it
 # Function "replace_na()" from library "tidyr" has a function made just for this
 

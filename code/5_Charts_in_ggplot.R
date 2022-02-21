@@ -24,7 +24,7 @@ View(cohoescapement)
 
 
 # Basic plotting in R is done using plot()
-plot(percentmales ~ statweek, data = pinksalmonratio %>% filter(statweek <40))
+plot(percentmales ~ statweek, data = pinksalmonratio %>% filter(statweek < 40))
 # Plotting can be done in base R though most users find it much easier to plot in ggplot2
 # We will now ignore just using plot() but it's very useful for a very quick chart!
 

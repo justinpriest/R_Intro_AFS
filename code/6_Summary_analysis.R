@@ -1,4 +1,4 @@
-# R Intro ADF&G
+# R Intro AFS
 # Justin Priest
 # justin.priest@alaska.gov
 
