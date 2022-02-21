@@ -2,7 +2,7 @@
 title: "Tutorial 2 - Basics"
 tutorial:
   id: "com.example.tutorials.basics"
-  version: 0.1.0
+  version: 1.0.0
 output: 
   learnr::tutorial:
     progressive: true
@@ -35,7 +35,7 @@ tannercrab <- read_csv("../../data/OceanAK_CrabSurvey_2018-2020_Specimens.csv") 
   filter(Species == "Bairdi tanner crab", Count >= 1, !is.na(Width)) # Keep only tanners & remove 0s
 ```
 
-# ADF&G learnr Tutorial
+# learnr Tutorial 2  
 ## Basic R Programming 
 
 ### Exercise 1 {data-allow-skip=TRUE}
@@ -235,7 +235,7 @@ Some questions to verify that you understand the purposes of various base and re
 
 ```{r quiz-basics1}
 quiz(
-  question("Which function would you use for taking the mean?",
+  question("Which function would you use for taking the mean /average?",
     answer("average()"),
     answer("tools"),
     answer("mean()", correct = TRUE),
@@ -277,6 +277,16 @@ quiz(
 )
 ```
 
+###   
+
+### Quiz 1 Review
+How did you do?!  If you've gotten this far, you're doing quite well! Here are some notes about _why_ those were the correct answers:   
+ - There are multiple ways of selecting a column in R. Using the brackets (`[]`) are the "Base R" method and commonly found in older code online.  
+ - Knowing when to use quotations feels quite odd at first. There is indeed a method to the madness: items within quotes are usually "text".  
+ - When reviewing code for errors as in the second to last question, it is very helpful to go slow, check for closing parentheses, missing / open commas, or missing quotes.  
+
+
+
 
 ## Quiz Part 2
 
@@ -300,7 +310,7 @@ quiz(
     answer("groundfish[,2]", correct = TRUE),
     answer("groundfish(col=2)")
   ),
-  question("While taking the mean, your answer is returned as NA. What argument should you add to the code?",
+  question("While taking the mean, your answer is returned as NA. What argument should you add inside the function mean()?",
     answer("completecase = FALSE"),
     answer("na.rm = TRUE", correct = TRUE),
     answer("pleaseremoveNAs")
@@ -322,5 +332,14 @@ quiz(
 )
 
 ```
+###    
 
 
+### Quiz 2 Review
+A couple of notes about those tricky problems:    
+ - If you see the plus sign (+) in the console, R is waiting for you and you probably forgot a closing parenthesis.  
+ - Proper variable naming is often a personal choice but the ones shown here were all bad. Don't use variable names that are extremely vague, have the same wording as a common function, or start with a number.  
+
+
+### COMPLETE
+Great work! You've successfully completed this lesson!

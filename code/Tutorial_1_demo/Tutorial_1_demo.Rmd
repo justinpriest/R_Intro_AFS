@@ -33,7 +33,7 @@ example_df <- data.frame(column1 = x, column2 = round(runif(10, 0, 100), 0))
 
 *Go slow and try to get the correct answers. If you want to see the hints or solutions, check those. This is not graded and is not a race, use this space to familiarize yourself with how R works. Once you are finished, close out of this window before opening a new tutorial.*
 
-*The Table of Content on the left allow you to jump between sections.* 
+*The Table of Contents on the left allow you to jump between sections.* 
 <br>  
 
 <hr>  

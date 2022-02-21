@@ -1,8 +1,8 @@
-# R Intro ADF&G
+# R Intro AFS
 # Justin Priest
 # justin.priest@alaska.gov
 
-#####  MOTIVATING EXAMPLE 2  #####
+#####  MOTIVATING EXAMPLE 3  #####
 #####       Pink Ratio       #####
 
 # Difficulty: Moderate

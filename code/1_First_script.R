@@ -47,7 +47,7 @@ mydf = data.frame(col_name1 = c("Male", "Female", "Female"),
 mydf
 # It's OK to break to the next line. On the line above, press enter after a comma
 # Line breaks MUST be after a comma or something equivalent
-# Also, look to the "Environment" pane, click on "mydf" over there. Very cool huh
+# Also, look to the "Environment" pane (top right), click on "mydf" over there. Very cool!
 # I think of dataframes like a spreadsheet with columns and rows.
 
 # But note that things need to be of equal lengths. Watch for the error message 
@@ -95,6 +95,8 @@ mydf$col_name1
 # To inspect the structure of a dataframe use str()
 str(mydf)
 # This is very useful to make sure that we've set the column types correctly
+
+
 # Sometimes to clean things up we use rm() to remove an object
 rm(myvector)
 # Bye bye myvector. So long and thanks for all the fish
@@ -104,10 +106,8 @@ rm(myvector)
 
 
 # This code randomizes the order of the items we tell it:
-sample(c("Nathan", "Steve", "Julie", "Andy", "Jason", "Tessa", "Whitney", 
-         "Willa", "Jake W", "Jake M", "Chris", "Cathy"))
-
-
+sample(c("Chris", "Bobette", "Erik", "Ulrich","Sean", "Maureen", "Keegan", 
+  "Elisa","Matt", "William", "Philip", "Alisa","Daphne", "Dawn"))
 
 
 

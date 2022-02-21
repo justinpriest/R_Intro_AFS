@@ -1,8 +1,8 @@
-# R Intro ADF&G
+# R Intro AFS
 # Justin Priest
 # justin.priest@alaska.gov
 
-#####  MOTIVATING EXAMPLE 1  #####
+#####  MOTIVATING EXAMPLE 5  #####
 #####      Crab Mapping      #####
 
 # Difficulty: Moderate & High

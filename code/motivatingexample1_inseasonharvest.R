@@ -1,8 +1,8 @@
-# R Intro ADF&G
+# R Intro AFS
 # Justin Priest
 # justin.priest@alaska.gov
 
-#####  MOTIVATING EXAMPLE 4  #####
+#####  MOTIVATING EXAMPLE 1  #####
 #####    Inseason Harvest    #####
 
 # Difficulty: Easy/Moderate
