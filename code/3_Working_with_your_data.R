@@ -156,4 +156,5 @@ addtwonumbers <- function(x1, x2){
   x1 + x2
 }
 addtwonumbers(5, 12)
-
+addtwonumbers(10, 7)
+addtwonumbers(3, 9)
