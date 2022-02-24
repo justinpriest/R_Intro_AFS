@@ -106,8 +106,9 @@ rm(myvector)
 
 
 # This code randomizes the order of the items we tell it:
-sample(c("Chris", "Bobette", "Erik", "Ulrich","Sean", "Maureen", "Keegan", 
-  "Elisa","Matt", "William", "Philip", "Alisa","Daphne", "Dawn"))
+sample(c("Chris", "Bobette", "Erik", "Ulrich", "Sean", "Maureen", 
+         "Keegan", "Elisa", "Matt", "William", "Philip", "Alisa",
+         "Daphne", "Dawn", "Chandra", "Morgan", "Andy", "Wyatt", "Eric"))
 
 
 
