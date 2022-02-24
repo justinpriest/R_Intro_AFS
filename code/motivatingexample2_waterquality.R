@@ -69,7 +69,7 @@ samplestreams %>%
 summary(aov(value ~ location, data = samplestreams))
 
 # We conclude that though Boulder Creek has a higher mean turbidity, 
-# this difference is insignificant. 
+#  this difference is insignificant. 
 # (Side note: always be cautious when interpreting "unbalanced" data,
 #   where you might have more samples or different sample timing)
 
