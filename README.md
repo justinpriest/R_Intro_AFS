@@ -50,3 +50,12 @@ Be kind: all else is details. _Remember, this includes being kind to YOU_
 We are teaching & learning this together. _Teach each other_  
 Every mistake is a lesson. _Ask me or yourself why something didn’t work_  
 Communicate when I’m going too fast. _Let’s keep this a dialog_  
+
+## License
+All code (project source code, R files, and RMD files) is licensed under 
+the [GNU GPL 3.0 license](LICENSE.md). 
+All other files and content of this project (e.g., teaching presentations and 
+.CSV data files) are licensed under the 
+[Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).  
+For exceptions and permissions to teach from these materials, please contact 
+the creators and license holder(s). 
