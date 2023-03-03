@@ -16,6 +16,7 @@ description: >
 library(learnr)
 library(tidyverse)
 library(lubridate)
+library(here)
 
 
 tutorial_options(exercise.timelimit = 60) # prevent overly complex code from running
@@ -25,7 +26,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r loadpkg, echo=FALSE, message=FALSE, warning=FALSE}
 
 # Now load in some data that we'll use later
-tannercrab <- read_csv("../../data/OceanAK_CrabSurvey_2018-2020_Specimens.csv") %>%
+#tannercrab <- read_csv(here::here("data/OceanAK_CrabSurvey_2018-2020_Specimens.csv")) %>%
+tannercrab <- read_csv("https://raw.githubusercontent.com/justinpriest/R_Intro_AFS/main/data/OceanAK_CrabSurvey_2018-2020_Specimens.csv") %>% 
+# tannercrab <- read_csv("../../data/OceanAK_CrabSurvey_2018-2020_Specimens.csv") %>%
   rename("Count" = "Number Of Specimens",
          "Width" = "Width Millimeters",
          "Chela" = "Chela Height Millimeters",

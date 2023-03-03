@@ -64,7 +64,9 @@ c("one", "two", "three", five) # Why did this fail? It's looking for an object n
 c(1,2,3,4,5)) # An out of place parenthesis stops the code
 
 data.frame(variable1 = c(1, 2, 3, 4, 5), variable2 = c(A, B, C, D, E))
-data.frame(variable1 = c(1, 2, 3, 4, 5), variable2 = c("A", "B", "C", "D", "E", "F"))
+
+data.frame(variable1 = c(1, 2, 3, 4, 5), 
+           variable2 = c("A", "B", "C", "D", "E", "F"))
 # The above items fail because 1) variable2 calls object A, object B, etc and those don't exist
 # and 2) because there are uneven columns 
 

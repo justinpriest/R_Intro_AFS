@@ -16,12 +16,14 @@ description: >
 library(learnr)
 library(tidyverse) 
 library(lubridate)
+library(here)
 tutorial_options(exercise.timelimit = 60) # prevent overly complex code from running
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r data-import, echo=FALSE, message=FALSE, warning=FALSE}
-pinksalmonratio <- read_csv("../../data/OceanAK_PinkSalmonRatio_2000-2020.csv") %>%
+pinksalmonratio <- read_csv("https://raw.githubusercontent.com/justinpriest/R_Intro_AFS/main/data/OceanAK_PinkSalmonRatio_2000-2020.csv") %>%
+#pinksalmonratio <- read_csv(here::here("data/OceanAK_PinkSalmonRatio_2000-2020.csv")) %>%
   rename("catchdate" = "Catch Date",
          "statweek" = "Stat Week",
          "percentmale" = "Percent Males",	
